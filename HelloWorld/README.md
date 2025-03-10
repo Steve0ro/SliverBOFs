@@ -5,17 +5,23 @@
 
 - Install Repo
 
-
 ```bash
 git clone https://github.com/steve0ro/SliverBOFs
+
+```
+- Change into HelloWorld Directory
+
+```bash
+
+cd SliverBOFs/HelloWorld
 
 ```
 
 - Run make to compile code
 
-
 ```bash
 make
+
 ```
 
 -  In sliver-client
@@ -33,7 +39,6 @@ sliver (RESPECTABLE_EXPOSITION) > extensions install /path/to/SliverBOFs/HelloWo
 
 ```bash
 sliver (RESPECTABLE_EXPOSITION) > hello-world 
-
 
 ```
 
