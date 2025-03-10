@@ -1,0 +1,24 @@
+{
+    "name": "Hello World!",
+    "version": "1.0.0",
+    "command_name": "hello-world",
+    "extension_author": "Steve",
+    "original_author": "Steve",
+    "repo_url": "https://github.com/steve0ro/SliverBOFs/HelloWorld",
+    "help": "Prints 'Hello World'",
+    "depends_on": "coff-loader",
+    "entrypoint": "go",
+    "files": [
+        {
+            "os": "windows",
+            "arch": "amd64",
+            "path": "hello.x64.o"
+        },
+        {
+            "os": "windows",
+            "arch": "386",
+            "path": "hello.x86.o"
+        }
+    ],
+    "arguments": []
+}
